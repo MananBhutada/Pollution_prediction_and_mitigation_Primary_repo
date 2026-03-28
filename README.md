@@ -1,5 +1,4 @@
-            |  Project S.A.A.S. (Synthetic Atmospheric Analytics & Synchronization) |
-
+            | Project S.A.A.S. (Synthetic Atmospheric Analytics & Synchronization) |
 
 En terprise-Grade Predictive Urban Governance & Hyper-Local Mitigation
 Official Repository for Bharat Mandapam Live Intelligence Demo 2026
@@ -11,7 +10,7 @@ Project S.A.A.S. is not a dashboard; it is a Distributed Intelligence Ecosystem.
 🏗️ Technical Architecture & Repository Map
 The repository is built on a Modular Micro-Kernel approach. Each directory functions as an independent microservice connected via the 04_Bridge state-persistence layer.
 
-                   Plaintext
+                 Plaintext
 
 
 PROJECT_S.A.A.S/
