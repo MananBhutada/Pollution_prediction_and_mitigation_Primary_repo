@@ -1,16 +1,14 @@
-            | Project S.A.A.S. (Synthetic Atmospheric Analytics & Synchronization) |
+Project S.A.A.S. (Synthetic Atmospheric Analytics & Synchronization)
 
 En terprise-Grade Predictive Urban Governance & Hyper-Local Mitigation
 Official Repository for Bharat Mandapam Live Intelligence Demo 2026
 
-
 Project S.A.A.S. is not a dashboard; it is a Distributed Intelligence Ecosystem. It treats the atmosphere as a fluid dynamic field and the city as a cellular grid of "Agents" (Wards). By synthesizing ISRO Sentinel-5P TROPOMI telemetry with Temporal Fusion Transformers (TFT), the system executes P-GRAP (Predictive Graded Response Action Plan) to neutralize pollution plumes before they penetrate the urban core.
-
 
 🏗️ Technical Architecture & Repository Map
 The repository is built on a Modular Micro-Kernel approach. Each directory functions as an independent microservice connected via the 04_Bridge state-persistence layer.
 
-                 Plaintext
+Plaintext
 
 
 PROJECT_S.A.A.S/
