@@ -7,8 +7,7 @@ Project S.A.A.S. is not a dashboard; it is a Distributed Intelligence Ecosystem.
 🏗️ Technical Architecture & Repository Map
 The repository is built on a Modular Micro-Kernel approach. Each directory functions as an independent microservice connected via the 04_Bridge state-persistence layer.
 
-Plaintext
-
+```plaintext
 PROJECT_S.A.A.S/
 ├── 01_Ingestion/           # Satellite Data Pipeline
 │   ├── sentinel_fetcher.py # TROPOMI L2 NetCDF4 processing
@@ -19,13 +18,15 @@ PROJECT_S.A.A.S/
 │   └── models/             # Quantile Regression weights (.pth)
 ├── 03_Governance/          # Autonomous Layer
 │   ├── orchestrator.py     # Multi-threaded heartbeat loop
-│   ├── ward_agents.py      # Independent Logic Units (Narela, Bawana, etc.)
+│   ├── ward_agents.py      # Independent Logic Units
 │   └── p_grap_logic.py     # Economic Threshold & Trigger Engine
 ├── 04_Bridge/              # State Persistence
 │   └── aura_master_state.json # Synchronized JSON Telemetry
 └── Hardware/               # IoT Node Firmware
-    ├── esp32_scrubber.ino  # Stokes-optimized Actuation Logic
-    └── sensor_calibration.h# Optical sensor transfer functions
+    ├── esp32_scrubber.ino
+    └── sensor_calibration.h
+```
+
 🧠 Deep-Dive: The Intelligence Core
 1. Temporal Fusion Transformers (TFT) Implementation
 We utilize the TFT architecture via the darts library to solve the "Multi-Horizon" forecasting problem.
