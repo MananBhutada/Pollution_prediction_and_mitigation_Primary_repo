@@ -1,13 +1,18 @@
-Project S.A.A.S. (Synthetic Atmospheric Analytics & Synchronization)
-Enterprise-Grade Predictive Urban Governance & Hyper-Local Mitigation
+                                                  |  Project S.A.A.S. (Synthetic Atmospheric Analytics & Synchronization) |
+
+
+En terprise-Grade Predictive Urban Governance & Hyper-Local Mitigation
 Official Repository for Bharat Mandapam Live Intelligence Demo 2026
 
+
 Project S.A.A.S. is not a dashboard; it is a Distributed Intelligence Ecosystem. It treats the atmosphere as a fluid dynamic field and the city as a cellular grid of "Agents" (Wards). By synthesizing ISRO Sentinel-5P TROPOMI telemetry with Temporal Fusion Transformers (TFT), the system executes P-GRAP (Predictive Graded Response Action Plan) to neutralize pollution plumes before they penetrate the urban core.
+
 
 🏗️ Technical Architecture & Repository Map
 The repository is built on a Modular Micro-Kernel approach. Each directory functions as an independent microservice connected via the 04_Bridge state-persistence layer.
 
-Plaintext
+                   Plaintext
+
 
 PROJECT_S.A.A.S/
 ├── 01_Ingestion/           # Satellite Data Pipeline
@@ -26,6 +31,7 @@ PROJECT_S.A.A.S/
 └── Hardware/               # IoT Node Firmware
     ├── esp32_scrubber.ino  # Stokes-optimized Actuation Logic
     └── sensor_calibration.h# Optical sensor transfer functions
+
 🧠 Deep-Dive: The Intelligence Core
 1. Temporal Fusion Transformers (TFT) Implementation
 We utilize the TFT architecture via the darts library to solve the "Multi-Horizon" forecasting problem.
@@ -35,6 +41,7 @@ Variable Selection Networks (VSN): Most AQI models fail because they cannot hand
 Quantile Regression: We don't predict a single number. We predict the 10th, 50th, and 90th percentiles. P-GRAP triggers are based on the 90th percentile (P90) to ensure "Precautionary Principle" safety.
 
 Static Covariates: We have encoded Delhi's 272 wards as static metadata, including their proximity to "Gateway Entrances" like Singhu and Tikri.
+
 
 2. Atmospheric Optical Physics (Vision AI)
 The vision_engine operates as a ground-truth validator for satellite data.
@@ -66,13 +73,17 @@ Resource Allocation: If two wards (e.g., Narela and Alipur) are both hit by a pl
 
 Open-Claw Protocol: This is our proprietary asynchronous communication stack. It allows the Python backend to fire a Telegram Alert, update the Wind Dashboard, and trigger the ESP32 IoT Node in parallel threads without latency bottlenecks.
 
+
 📡 Deployment & Cloning
+
+
 1. Prerequisites
 Python: 3.9+ (Environment isolation via venv or conda recommended).
 
 Dependencies: darts, torch, opencv-python, joblib, netCDF4, paho-mqtt.
 
 Hardware: ESP32-WROOM-32, GP2Y1010AU0F Optical Dust Sensor, High-Pressure Atomization Pump.
+
 
 2. Setup
 Bash
@@ -86,14 +97,17 @@ pip install -r requirements.txt
 
 # Connect Google Colab to the JSON Bridge (If using Cloud-Edge Hybrid)
 python 04_Bridge/init_bridge.py
+
 3. Execution
 To launch the 24/7 autonomous monitoring heartbeat:
 
 Python
 
+
 from 03_Governance import orchestrator
 orchestrator.run_aura_autonomous_engine(mode='production', p_grap=True)
 📊 Fiscal Impact & The "S.A.A.S. Guarantee"
+
 +---------------------------------------------------------------------------------------------------------------+
 | Feature                   | Technical Benefit                  | Fiscal Impact                                |
 |---------------------------|------------------------------------|----------------------------------------------|
@@ -101,6 +115,7 @@ orchestrator.run_aura_autonomous_engine(mode='production', p_grap=True)
 | **Localized Scrubbing**   | Neutralizes plumes at border       | Avoids city-wide Stage 4 Lockdown            |
 | **Environmental Credits** | Incentivizes industrial compliance | Reduces state health spending by 12%         |
 +---------------------------------------------------------------------------------------------------------------+
+
 
 | Developed for India Innovates 26 in Bharat Mandapam.
 
