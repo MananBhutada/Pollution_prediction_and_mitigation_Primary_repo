@@ -205,3 +205,27 @@
 .leaflet-popup-tip {
   background: hsl(220, 18%, 10%) !important;
 }
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out;
+}
+.glass-card {
+  backdrop-filter: blur(20px);
+  background: rgba(165, 80, 80, 0.05);
+  border-bottom: 1px solid rgba(1, 132, 255, 0.801);
+}
+
+/* 🌈 moving gradient animation */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
