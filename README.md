@@ -1,4 +1,4 @@
-                                                  |  Project S.A.A.S. (Synthetic Atmospheric Analytics & Synchronization) |
+            |  Project S.A.A.S. (Synthetic Atmospheric Analytics & Synchronization) |
 
 
 En terprise-Grade Predictive Urban Governance & Hyper-Local Mitigation
