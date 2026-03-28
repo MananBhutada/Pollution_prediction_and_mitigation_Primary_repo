@@ -10,7 +10,6 @@ The repository is built on a Modular Micro-Kernel approach. Each directory funct
 
 Plaintext
 
-
 PROJECT_S.A.A.S/
 ├── 01_Ingestion/           # Satellite Data Pipeline
 │   ├── sentinel_fetcher.py # TROPOMI L2 NetCDF4 processing
