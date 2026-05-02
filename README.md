@@ -106,3 +106,5 @@ orchestrator.run_aura_autonomous_engine(mode='production', p_grap=True)
 | Developed for India Innovates 26 in Bharat Mandapam.
 
 S.A.A.S. is more than code; it is a blueprint for the future of breathable cities.
+
+Multiple national level innovation challenge finalist and winner.
