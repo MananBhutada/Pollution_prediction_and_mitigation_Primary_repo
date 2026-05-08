@@ -103,7 +103,7 @@ orchestrator.run_aura_autonomous_engine(mode='production', p_grap=True)
 | **Environmental Credits** | Incentivizes industrial compliance | Reduces state health spending by 12%         |
 +---------------------------------------------------------------------------------------------------------------+
 
-| Developed for India Innovates 26 in Bharat Mandapam.
+
 
 S.A.A.S. is more than code; it is a blueprint for the future of breathable cities.
 
