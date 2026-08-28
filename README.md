@@ -108,3 +108,6 @@ orchestrator.run_aura_autonomous_engine(mode='production', p_grap=True)
 S.A.A.S. is more than code; it is a blueprint for the future of breathable cities.
 
 Multiple national level innovation challenge finalist and winner.
+
+
+The main saas project has advanced significantly this repo focuses on experiments along the way...especially in aqi prediction with images
